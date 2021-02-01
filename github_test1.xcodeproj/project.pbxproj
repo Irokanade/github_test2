@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E6A1691025C7DC7C00B87418 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6A1690F25C7DC7C00B87418 /* main.cpp */; };
+		E6A1691825C7E42600B87418 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E6A1691725C7E42600B87418 /* Makefile */; };
+		E6A1691B25C7E47C00B87418 /* print_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6A1691A25C7E47C00B87418 /* print_func.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		E6A1690C25C7DC7C00B87418 /* github_test1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = github_test1; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A1690F25C7DC7C00B87418 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E6A1691725C7E42600B87418 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		E6A1691A25C7E47C00B87418 /* print_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print_func.cpp; sourceTree = "<group>"; };
+		E6A1691D25C7E49A00B87418 /* hw1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hw1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				E6A1690F25C7DC7C00B87418 /* main.cpp */,
+				E6A1691A25C7E47C00B87418 /* print_func.cpp */,
+				E6A1691725C7E42600B87418 /* Makefile */,
+				E6A1691D25C7E49A00B87418 /* hw1.h */,
 			);
 			path = github_test1;
 			sourceTree = "<group>";
@@ -118,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A1691825C7E42600B87418 /* Makefile in Sources */,
+				E6A1691B25C7E47C00B87418 /* print_func.cpp in Sources */,
 				E6A1691025C7DC7C00B87418 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
