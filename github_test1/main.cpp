@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     
     printf("I'm now in development branch\n");
     
-    const long i = 0;
+    const long i = 3;
     long long ii = 2;
     
     return 0;
